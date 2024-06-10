@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+section {
+    overflow: hidden;
+}
+
+   
+
+.banner {
+    background-image: url('../img/saudeplus.png');
+    background-size: cover;
+    background-position: center ;
+    height: 700px;
+}
+
+.desc--banner {
+    width: 100vw;
+    height: 100%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.slogan  h1{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 45px;
+  line-height: 40px;
+  text-align: start;
+  margin-top: 100px;
+}
+
+span {
+    color: rgb(239, 111, 185);
+}
+
+.button {
+   
+        display: inline-block;
+        background-color: rgb(195, 75, 171);
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 600;
+        text-decoration: none;
+        padding: 10px 30px;
+        margin-top: 30px;
+        border-radius: 20px;
+    }
+
+    .button:hover {
+        transform: scale(1.1);
+        transition: 2s;
+        background-color: #c58cb2;
+    }
+
+.slogan p {
+    max-width: 600px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: -35px;
+}
+
+.title--text h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+.title--text h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.bar {
+    width: 100%;
+    height: 15px;
+    background-color: #c58cb2;
+    margin: auto;
+}
+
+
+
+
+
+.slides {
+    gap: 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.slide-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    width: 400px;
+    height: 600px;
+    padding: 32px;
+    border-radius: 32px;
+}
+
+.prev {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    color: red ;
+    text-decoration: none;
+}
+
+.prev-text {
+    margin-top: 4px;
+}
+
+.title {
+    font-size: 28px;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.desc-content {
+    width: 600px;
+    text-align: center;
+}
+
+.img {
+    width: auto;
+    height: 160px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.btn {
+    background-color: #c58cb2;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 999px;
+}
+
+.dot-box {
+    text-align: center;
+}
+
+.dot {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 0 2px;
+    background-color:#ada6ab ;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color .6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #c58cb2;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from{opacity: .2}
+    to{opacity: 1}
+}
+
+.section-receber {
+    color: #fff;
+    background: linear-gradient(45deg, rgb(184, 117, 175)-30%, rgb(0, 0, 0) 55%, rgb(0, 0, 0) 81%, rgb(0, 0, 0) 100%);
+
+}
+
+.dreaming-area {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   
+}
+
+.dreaming-area a {
+    display: none;
+}
+
+
+.dreaming--content, .dreaming-img  {
+   flex: 1;
+}
+
+.text-receber h1 {
+    text-align: start;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.text-receber p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+
+.dreaming-img img {
+    width: 700px;
+    filter: drop-shadow(5px 6px 10px rgb(172, 57, 122));
+
+}
+
+.dreaming-img:hover {
+    transform: rotate(5deg);
+    transition: all 2s;
+}
+
+
+.section-produtos {
+    background: none;
+    color: #000;
+}
+
+
+.produtos-areas {
+    flex-direction: row-reverse;
+}
+
+
+
+.receber-img img {
+    width: 350px;
+    filter: drop-shadow(5px 6px 5px rgb(172, 57, 122));
+
+}
+
+
+.receita img {
+    width: 400px;
+    margin-left: 100px;
+}
+
+
+
+
+@media (min-width:451px) and (max-width: 800px) {
+    .slogan  h1{
+        font-size: 27px;
+        padding: 20px;
+        line-height: 27px;
+      }
+      
+      
+      
+      .slogan p {
+           font-size: 16px;
+           line-height: 20px;
+           padding: 20px;
+      }
+
+
+      .title--text {
+        font-size: 10px;
+      }
+
+      .title--text h2 {
+        font-size: 10px;
+      }
+      
+ 
+      .desc-content {
+        width: 300px;
+        text-align: center;
+      }
+
+      .slide-area {
+        display: flex; /* Adiciona flexbox */
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente */
+        padding: 0px; /* Define o padding */
+        margin-bottom: 50px; /* Define a margem inferior */
+        width: 100%; /* Define a largura */
+        height: 500px; /* Define uma altura específica */
+        margin-top: 40px;    
+      }
+      
+
+      .dreaming-area {
+        flex-direction: column;
+        padding: 20px;
+      }
+
+
+      .dreaming--content p {
+        font-size: 18px;
+        
+      }
+
+      .dreaming-img img {
+        width: 400px;
+        margin: auto;
+      }
+
+      .slides {
+        justify-content: center;
+        
+      }
+
+
+      .receber-img img {
+        width: 250px;
+        filter: drop-shadow(5px 6px 5px rgb(172, 57, 122));
+    
+    }
+    
+    
+    .receita img {
+        width: 250px;
+       
+    }
+
+    .dreaming-area a {
+        margin-bottom: 30px;
+        display: block;
+    }
+
+
+    
+    
+}
+
+
+
+
+
+@media (max-width: 450px) {
+
+
+     .banner {
+        background-position-x: 600px;
+     }
+
+    .slogan  h1{
+        font-size: 27px;
+        text-align: center;
+        line-height: 27px;
+      }
+      
+      
+      
+      .slogan p {
+           text-align: center;
+           font-size: 16px;
+           line-height: 20px;
+           padding: 20px;
+      }
+
+
+      .title--text {
+        font-size: 10px;
+      }
+
+      .title--text h2 {
+        font-size: 10px;
+      }
+      
+ 
+      .desc-content {
+        width: 300px;
+        text-align: center;
+      }
+
+      .slide-area {
+        display: flex; /* Adiciona flexbox */
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente */
+        padding: 0px; /* Define o padding */
+        margin-bottom: 50px; /* Define a margem inferior */
+        width: 100%; /* Define a largura */
+        height: 500px; /* Define uma altura específica */
+        margin-top: 40px;    
+      }
+      
+
+      .dreaming-area {
+        flex-direction: column;
+        padding: 20px;
+      }
+
+
+      .dreaming--content p {
+        font-size: 18px;
+        
+      }
+
+      .dreaming-img img {
+        width: 400px;
+        margin: auto;
+      }
+
+      .slides {
+        justify-content: center;
+        
+      }
+
+
+      .receber-img img {
+        width: 250px;
+        filter: drop-shadow(5px 6px 5px rgb(172, 57, 122));
+    
+    }
+    
+    
+    .receita img {
+        width: 250px;
+       
+    }
+
+    .dreaming-area a {
+        margin-bottom: 30px;
+        display: block;
+    }
+
+
+    
+    
+      
+      
+}
