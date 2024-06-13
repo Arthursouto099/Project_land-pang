@@ -9,6 +9,8 @@ function currentSlide(n) {
   showSlides(index = n)
 }
 
+
+
 function showSlides(n) {
   let slides = document.getElementsByClassName("slides");
   let dots = document.getElementsByClassName("dot");

@@ -91,6 +91,7 @@ span {
     height: 15px;
     background-color: #c58cb2;
     margin: auto;
+    opacity: 0.1;
 }
 
 
@@ -232,13 +233,12 @@ span {
 .dreaming-img img {
     width: 700px;
     filter: drop-shadow(5px 6px 10px rgb(172, 57, 122));
+    
+    
 
 }
 
-.dreaming-img:hover {
-    transform: rotate(5deg);
-    transition: all 2s;
-}
+
 
 
 .section-produtos {
@@ -265,6 +265,56 @@ span {
     margin-left: 100px;
 }
 
+
+.bola {
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            background-color: #f0f0f0;
+            position: absolute;
+            right: 300px;
+            margin-top: 80px;
+            overflow: hidden;
+
+}
+
+
+.section--buy {
+     color: #fff;
+    background: linear-gradient(45deg, rgb(184, 117, 175)-30%, rgb(0, 0, 0) 55%, rgb(0, 0, 0) 81%, rgb(0, 0, 0) 100%);
+}
+
+.section--buy {
+    text-align: center;
+}
+
+.images--phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.images--phone img {
+  width: 200px;
+  padding: 10px;
+  filter: drop-shadow(5px 6px 5px rgb(172, 57, 122));
+}
+
+.images--phone img:nth-child(2) {
+    margin-bottom: 20px;
+}
+
+.text--buy h1 {
+    font-size: 40px;
+}
+
+.btn--buy {
+    padding: 20px 90px;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
 
 
 
@@ -348,7 +398,12 @@ span {
         margin-bottom: 30px;
         display: block;
     }
+   
 
+    .bola {
+       top: 1520px;
+       right: auto;
+    }
 
     
     
@@ -445,7 +500,20 @@ span {
         margin-bottom: 30px;
         display: block;
     }
+   
+    .bola {
+        margin-top: 0;
+        right: 55px;
+        width: 300px;
+        height: 300px;
+        
+    }
 
+    .images--phone img {
+      padding: 5px;
+      width: 150px;
+    
+      }
 
     
     
