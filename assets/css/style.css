@@ -739,6 +739,13 @@ span {
 
     }
 
+
+    .text--buy h1 {
+        font-size: 25px;
+    }
+
+
+
     .list-container h1 {
         margin-top: 20px;
     }
@@ -794,7 +801,10 @@ span {
         text-align: center;
         margin-bottom: 20px;
     }
-  
+    
+    .afiliado-img img {
+       width: 250px;
+    }
 
 
     .image--banner {
@@ -812,6 +822,17 @@ span {
 
     .media-section {
         grid-template-columns: 1fr;
+    }
+
+    .title--afiliado {
+        margin-bottom: 20px;
+    }
+
+    .title--afiliado h1 {
+        font-size: 20px;
+    }
+    .title--afiliado h2 {
+        font-size: 13px;
     }
       
       
